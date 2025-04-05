@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bozi - Tienda de Calzado</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffc107;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .producto {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .producto:hover {
+      transform: scale(1.03);
+    }
+
+    .producto img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .producto h2 {
+      margin: 10px 0;
+    }
+
+    .producto p {
+      font-size: 1rem;
+      margin: 10px 0;
+    }
+
+    .precio {
+      color: #e91e63;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bozi</h1>
+    <p>Estilo que te acompaña en cada paso</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Hombres</a>
+    <a href="#">Mujeres</a>
+    <a href="#">Ofertas</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <section class="productos">
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Zapato+1" alt="Zapato 1">
+      <h2>Zapato Clásico Negro</h2>
+      <p>Elegancia y confort para cualquier ocasión.</p>
+      <p class="precio">$89.990</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Zapato+2" alt="Zapato 2">
+      <h2>Zapatillas Urbanas</h2>
+      <p>Perfectas para tu estilo de vida activo.</p>
+      <p class="precio">$69.990</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Zapato+3" alt="Zapato 3">
+      <h2>Botas de Cuero</h2>
+      <p>Resistentes y modernas, ideales para el invierno.</p>
+      <p class="precio">$109.990</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Zapato+4" alt="Zapato 4">
+      <h2>Sandalias de Verano</h2>
+      <p>Frescura y estilo para días soleados.</p>
+      <p class="precio">$49.990</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Zapato+5" alt="Zapato 5">
+      <h2>Tenis Deportivos</h2>
+      <p>Diseñados para brindarte soporte y velocidad.</p>
+      <p class="precio">$79.990</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Zapato+6" alt="Zapato 6">
+      <h2>Zapatos de Tacón</h2>
+      <p>Elegancia femenina para eventos especiales.</p>
+      <p class="precio">$99.990</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Zapato+7" alt="Zapato 7">
+      <h2>Mocasines de Cuero</h2>
+      <p>Comodidad clásica para el día a día.</p>
+      <p class="precio">$84.990</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Bozi | Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
